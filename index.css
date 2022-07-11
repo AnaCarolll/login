@@ -1,14 +1,142 @@
 head, body {
 background-color: #FC8FA4;
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
 }
+
+.container{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 20px ;
+}
+.box1{
+  background-color:#ffeff2;  
+  height: 110px;
+  opacity: 0.5;
+  box-shadow: 1px 1px 4px black;
+  grid-column-start: 1;
+  grid-column-end: 3;
+
+}
+
+
+.container2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+  margin: 0%;
+  padding-left: 40%;
+ position: relative;
+}
+
+
+
+.titulo{
+ color:#ffffff;
+right: 10%;
+text-align: center;
+}
+
+.classe{
+  margin: 20%;
+  position: relative;
+  width: 160%;
+  right: 60%;
+}
+
+.botao{
+  color: #FC8FA4;
+  background-color: #ffeff2;
+
+}
+
+form input{
+ width: 100%;
+  padding: 5%;
+  border-radius: 6px;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 
 .box2{
-    background-image: url(./img/Lovisa\ _\ uploaded\ by\ ℒ\ on\ We\ Heart\ It.jpg);
+  background-color: rgb(248, 238, 238);
+  height: 50px;
+  padding: 0px;
+  margin:100px;
+  border-radius: 20px;
+  width: 379px;
+  right: 110%;
+  left: 22%;;
+  margin-right: 70%;
+  box-shadow: 1px 1px 4px black;
+  position: center;
+  position: absolute;
+  grid-template-columns: 10px 10px 10px;
+  grid-template-rows: 10px 10px 10px;
+}
 
-   height: 500px;
-   width: 500px;
-   padding: 100px;
-   display: block;
-   
+
+
+
+/*.box3{
+background-color: blue;
+height: 100px;
+grid-column-start: 2;
+grid-column-end: 3;
 
 }
+
+
+
+
+.container2{
+display: grid;
+}
+
+.box4{
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  height: 49px;
+  margin: 10px;
+  padding: 0px;
+  width: 380px;
+  top: 60%;
+  left: 30%;
+  right: 45% ;
+  margin-right: -50%;
+  position: absolute;
+  box-shadow: 1px 1px 4px black;
+  grid-template-columns: 10px 10px 10px;
+  grid-template-rows: 10px 10px 10px;
+}
+
+.box5{
+  background-color: #ffeff2;
+  width: 100%;;
+  margin: 0%;
+  padding: 0%
+}*/
+
+
+
+
+
+
