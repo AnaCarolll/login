@@ -1,66 +1,124 @@
 head, body {
-background-color: #FC8FA4;
-margin: 0px;
-padding: 0px;
+background-image: url(./img/Lovisa\ _\ uploaded\ by\ ℒ\ on\ We\ Heart\ It.jpg);
+width: 90vw;
+height: 70vh;
+background-size: cover;
 box-sizing: border-box;
+object-fit: cover;
+
+}
+
+head, body{
+  width: 97vw;
+  height: 96vh;
+  background: #FC8FA4 rgba(0,0,0,0,8);
+  backdrop-filter:blur(10px);
+  align-items: center;
+   background-size: cover;
 
 }
 
 .container{
   display: grid;
   grid-template-columns: 3fr 1fr;
-  grid-gap: 20px ;
+  grid-gap: 10px ;
 }
+
+
+
 .box1{
-  background-color:#ffeff2;  
-  height: 110px;
+  background-color:#ffffff;  
+  height: 150px;
   opacity: 0.5;
   box-shadow: 1px 1px 4px black;
   grid-column-start: 1;
   grid-column-end: 3;
+  padding: 0%;
+  width: 102%;
+  margin: 0%;
+  
+
+  
+  
 
 }
+img{
+  display: block;
+  block-size: 100%;
+  padding-left:44% ;
+  padding-top: 1%;
+  background-image: black;
+
+}
+
 
 
 .container2{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5%;
+  padding: 1%;
   margin: 0%;
   padding-left: 40%;
  position: relative;
+
 }
 
 
+.email0{
+  color: #ffeff2;
+  font-family: 'Lusitana', serif;
+  font-size: 20px;
+}
+.senha0{
+  color: #ffeff2;
+  font-family: 'Lusitana', serif;
+  font-size: 20px;
+}
 
 .titulo{
  color:#ffffff;
 right: 10%;
 text-align: center;
+font-size:40px;
+font-family: 'Lusitana', serif;
+margin: 4%;
 }
 
 .classe{
-  margin: 20%;
+  margin: 10%;
   position: relative;
   width: 160%;
-  right: 60%;
+  right: 50%;
+  
 }
 
-.botao{
+/*.botao{
   color: #FC8FA4;
   background-color: #ffeff2;
 
-}
+}*/
 
 form input{
  width: 100%;
   padding: 5%;
   border-radius: 6px;
+  box-shadow: 1px 1px 4px black;
+  border: #ffeff2;
+  margin: 0%;
  
 }
-
-
+ .e{color: #ffeff2;
+  font-family: 'Lusitana', serif;
+  font-size: 20px;
+text-decoration: none;
+ }
+.c{
+color: #ffeff2;
+font-family: 'Lusitana', serif;
+font-size: 20px;
+text-decoration: none;
+}
 
 
 
